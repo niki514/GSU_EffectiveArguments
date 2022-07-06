@@ -49,7 +49,7 @@ File List:
 - ExploratoryAnalysis.ipynb: exploration of Kaggle dataset (described below) through descriptive statistics and associated visualizations
 - TrainToDTM.ipynb: create a document term matrix from the Kaggle dataset
 - dtm.csv: document term matrix for the Kaggle dataset, indexed by discourse ID
-- DTM_Visualizations.ipynb: word cloud visualizations for effective, adequate, and ineffective discourse, derived from the document term matrix
+- DTM_Visualizations.ipynb: visualizations for effective, adequate, and ineffective discourse, derived from the document term matrix and lexical measures
 
 Additional related data collected that was not included in the current data package: The Kaggle dataset is not included in the current data package due to the competition rules.
 
@@ -61,6 +61,99 @@ Description of methods used for collection/generation of data: <include links or
 Methods for processing the data: <describe how the submitted data were generated from the raw or collected data>
 
 Instrument- or software-specific information needed to interpret the data: <include full name and version of software, and any necessary packages or libraries needed to run scripts>
+- @article{harris2020array,
+    title = {Array programming with {NumPy}},
+    author = {Charles R. Harris and K. Jarrod Millman and St{\'{e}}fan J.
+                 van der Walt and Ralf Gommers and Pauli Virtanen and David
+                 Cournapeau and Eric Wieser and Julian Taylor and Sebastian
+                 Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
+                 and Stephan Hoyer and Marten H. van Kerkwijk and Matthew
+                 Brett and Allan Haldane and Jaime Fern{\'{a}}ndez del
+                 R{\'{i}}o and Mark Wiebe and Pearu Peterson and Pierre
+                 G{\'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
+                 Warren Weckesser and Hameer Abbasi and Christoph Gohlke and
+                 Travis E. Oliphant},
+    year = {2020},
+    month = sep,
+    journal = {Nature},
+    volume = {585},
+    number = {7825},
+    pages = {357--362},
+    doi = {10.1038/s41586-020-2649-2},
+    publisher = {Springer Science and Business Media {LLC}},
+    url = {https://doi.org/10.1038/s41586-020-2649-2}
+    }
+- @article{Hunter:2007,
+    Author = {Hunter, J. D.},
+    Title = {Matplotlib: A 2D graphics environment},
+    Journal = {Computing in Science \& Engineering},
+    Volume = {9},
+    Number = {3},
+    Pages = {90--95},
+    abstract = {Matplotlib is a 2D graphics package used for Python for
+    application development, interactive scripting, and publication-quality
+    image generation across user interfaces and operating systems.},
+    publisher = {IEEE COMPUTER SOC},
+    doi = {10.1109/MCSE.2007.55},
+    year = 2007
+    }
+- @software{lex,
+    author = {Shen, Lucas},
+    doi = {10.5281/zenodo.6607008},
+    license = {MIT license},
+    title = {{LexicalRichness: A small module to compute textual lexical richness}},
+    url = {https://github.com/LSYS/lexicalrichness},
+    year = {2022}
+    }
+- @inproceedings{sklearn_api,
+    author = {Lars Buitinck and Gilles Louppe and Mathieu Blondel and
+               Fabian Pedregosa and Andreas Mueller and Olivier Grisel and
+               Vlad Niculae and Peter Prettenhofer and Alexandre Gramfort
+               and Jaques Grobler and Robert Layton and Jake VanderPlas and
+               Arnaud Joly and Brian Holt and Ga{\"{e}}l Varoquaux},
+    title = {{API} design for machine learning software: experiences from the scikit-learn
+               project},
+    booktitle = {ECML PKDD Workshop: Languages for Data Mining and Machine Learning},
+    year = {2013},
+    pages = {108--122},
+    }
+- @book{Python 3 Reference Manual, 10.5555/1593511,
+    author = {Van Rossum, Guido and Drake, Fred L.},
+    title = {Python 3 Reference Manual},
+    year = {2009},
+    isbn = {1441412697},
+    publisher = {CreateSpace},
+    address = {Scotts Valley, CA}
+    }
+- @software{reback2020pandas,
+    author = {The pandas development team},
+    title = {pandas-dev/pandas: Pandas},
+    month = feb,
+    year = 2020,
+    publisher = {Zenodo},
+    version = {3.10.5},
+    doi = {10.5281/zenodo.3509134},
+    url = {https://doi.org/10.5281/zenodo.3509134}
+- @article{Waskom2021,
+    doi = {10.21105/joss.03021},
+    url = {https://doi.org/10.21105/joss.03021},
+    year = {2021},
+    publisher = {The Open Journal},
+    volume = {6},
+    number = {60},
+    pages = {3021},
+    author = {Michael L. Waskom},
+    title = {seaborn: statistical data visualization},
+    journal = {Journal of Open Source Software}
+    }
+- @software{wordcloud,
+    author = {Mueller, Andreas},
+    license = {MIT license},
+    title = {{word_cloud}},
+    url = {https://github.com/amueller/word_cloud},
+    year = {2018}
+    }
+    
 
 Standards and calibration information, if appropriate: 
 
